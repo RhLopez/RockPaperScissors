@@ -10,6 +10,7 @@
 		DD5E8FC81E28AD1900930C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FC71E28AD1900930C02 /* main.m */; };
 		DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD21E28AEE100930C02 /* RPSTurn.m */; };
 		DD5E8FD61E28AFBC00930C02 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD51E28AFBC00930C02 /* RPSGame.m */; };
+		DD5E8FD91E28B19600930C02 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD81E28B19600930C02 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DD5E8FD21E28AEE100930C02 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
 		DD5E8FD41E28AFBC00930C02 /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
 		DD5E8FD51E28AFBC00930C02 /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		DD5E8FD71E28B19600930C02 /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		DD5E8FD81E28B19600930C02 /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				DD5E8FD21E28AEE100930C02 /* RPSTurn.m */,
 				DD5E8FD41E28AFBC00930C02 /* RPSGame.h */,
 				DD5E8FD51E28AFBC00930C02 /* RPSGame.m */,
+				DD5E8FD71E28B19600930C02 /* RPSController.h */,
+				DD5E8FD81E28B19600930C02 /* RPSController.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */,
 				DD5E8FC81E28AD1900930C02 /* main.m in Sources */,
 				DD5E8FD61E28AFBC00930C02 /* RPSGame.m in Sources */,
+				DD5E8FD91E28B19600930C02 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
