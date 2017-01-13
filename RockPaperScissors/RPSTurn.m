@@ -20,4 +20,8 @@
     return self;
 }
 
+-(Move)generateMove {
+    return Rock;
+}
+
 @end
