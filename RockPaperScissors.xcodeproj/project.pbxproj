@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD5E8FC81E28AD1900930C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FC71E28AD1900930C02 /* main.m */; };
 		DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD21E28AEE100930C02 /* RPSTurn.m */; };
+		DD5E8FD61E28AFBC00930C02 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD51E28AFBC00930C02 /* RPSGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DD5E8FC71E28AD1900930C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD5E8FD11E28AEE100930C02 /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
 		DD5E8FD21E28AEE100930C02 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		DD5E8FD41E28AFBC00930C02 /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		DD5E8FD51E28AFBC00930C02 /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				DD5E8FC71E28AD1900930C02 /* main.m */,
 				DD5E8FD11E28AEE100930C02 /* RPSTurn.h */,
 				DD5E8FD21E28AEE100930C02 /* RPSTurn.m */,
+				DD5E8FD41E28AFBC00930C02 /* RPSGame.h */,
+				DD5E8FD51E28AFBC00930C02 /* RPSGame.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */,
 				DD5E8FC81E28AD1900930C02 /* main.m in Sources */,
+				DD5E8FD61E28AFBC00930C02 /* RPSGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
