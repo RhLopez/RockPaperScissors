@@ -10,7 +10,7 @@
 
 @implementation RPSController
 
--(void)thrownDown:(Move)move {
+-(void)thrownDown:(Move)playersMove {
     
 }
 

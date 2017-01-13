@@ -24,4 +24,8 @@
     return Rock;
 }
 
+-(BOOL)defeats:(RPSTurn*)turn {
+    return false;
+}
+
 @end
