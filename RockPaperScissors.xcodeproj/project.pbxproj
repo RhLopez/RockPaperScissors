@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD5E8FC81E28AD1900930C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FC71E28AD1900930C02 /* main.m */; };
+		DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E8FD21E28AEE100930C02 /* RPSTurn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DD5E8FC41E28AD1900930C02 /* RockPaperScissors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RockPaperScissors; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5E8FC71E28AD1900930C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5E8FD11E28AEE100930C02 /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		DD5E8FD21E28AEE100930C02 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DD5E8FC71E28AD1900930C02 /* main.m */,
+				DD5E8FD11E28AEE100930C02 /* RPSTurn.h */,
+				DD5E8FD21E28AEE100930C02 /* RPSTurn.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5E8FD31E28AEE100930C02 /* RPSTurn.m in Sources */,
 				DD5E8FC81E28AD1900930C02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +255,7 @@
 				DD5E8FCD1E28AD1900930C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
