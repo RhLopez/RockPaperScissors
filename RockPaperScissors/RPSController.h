@@ -16,5 +16,6 @@
 
 -(void)throwDown:(Move)playersMove;
 -(NSString*)resultsString:(RPSGame*)game;
+-(NSString*)messageFromGame:(RPSGame*)game;
 
 @end
