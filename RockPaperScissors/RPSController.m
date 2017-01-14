@@ -18,7 +18,6 @@
     
     self.game = [[RPSGame alloc]initWithFirstTurn:playersTurn
                                        secondTurn:computerTurn];
-    
 }
 
 -(NSString*)resultsString:(RPSGame*)game {
