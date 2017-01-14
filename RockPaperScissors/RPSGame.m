@@ -23,7 +23,7 @@
 }
 
 -(RPSTurn*)winner {
-    if ([_firstTurn defeats:_secondTurn]) {
+    if ([self.firstTurn defeats:self.secondTurn]) {
         return _firstTurn;
     } else {
         return _secondTurn;
@@ -31,7 +31,7 @@
 }
 
 -(RPSTurn*)loser {
-    if (![_firstTurn defeats:_secondTurn]) {
+    if (![self.firstTurn defeats:self.secondTurn]) {
         return _firstTurn;
     } else {
         return _secondTurn;
