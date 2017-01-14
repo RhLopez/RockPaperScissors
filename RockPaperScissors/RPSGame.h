@@ -16,5 +16,7 @@
 
 -(instancetype)initWithFirstTurn:(RPSTurn*)playerTurn
                       secondTurn:(RPSTurn*)computerTurn;
+-(RPSTurn*)winner;
+-(RPSTurn*)loser;
 
 @end
