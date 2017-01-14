@@ -21,7 +21,7 @@
 }
 
 -(NSString*)resultsString:(RPSGame*)game {
-    return [game.firstTurn defeats:game.secondTurn] ? @"You win!" : @"You lose";
+    return [game.firstTurn defeats:game.secondTurn] ? @"You win!" : @"You lose.";
 }
 
 -(NSString*)messageFromGame:(RPSGame*)game {
@@ -32,7 +32,7 @@
         NSString *loserString = [[game loser] description];
         NSString *resultsString = [self resultsString:game];
         
-        NSString *wholeString = [NSString stringWithFormat:@"%@ %@ %@ %@ %@", winnerString, @" defeats ", loserString, @".", resultsString];
+        NSString *wholeString = [NSString stringWithFormat:@"%@%@%@%@%@", winnerString, @" defeats ", loserString, @". ", resultsString];
         
         return wholeString;
     }
