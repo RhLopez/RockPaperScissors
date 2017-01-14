@@ -30,4 +30,12 @@
     }
 }
 
+-(RPSTurn*)loser {
+    if (![_firstTurn defeats:_secondTurn]) {
+        return _firstTurn;
+    } else {
+        return _secondTurn;
+    }
+}
+
 @end
