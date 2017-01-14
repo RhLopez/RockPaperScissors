@@ -21,4 +21,12 @@
     
 }
 
+-(NSString*)resultsString:(RPSGame*)game {
+    if (game.winner == game.firstTurn) {
+        return @"You win!";
+    } else {
+        return @"You lose";
+    }
+}
+
 @end
